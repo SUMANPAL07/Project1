@@ -15,8 +15,8 @@ body {
 .title {
   text-align: center;
   padding: 20px 10px;
-  background: #4a90e2;
-  color: #fff;
+  text-decoration: underline;
+  color: #4a90e2;
 }
 
 .title h1 {
