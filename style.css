@@ -1,0 +1,147 @@
+/* Reset some default styles */
+body, h1, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #f6f9fc, #e9eff1);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Title section styling */
+.title {
+  text-align: center;
+  padding: 20px 10px;
+  background: #4a90e2;
+  color: #fff;
+}
+
+.title h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* Image section styling */
+.image-section {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+overflow: hidden;
+padding: 20px 10px; /* Optional: Adds padding around the image */
+}
+
+.image-section img {
+max-width: 100%; /* Ensures the image fits within its container */
+height: auto; /* Maintains the image aspect ratio */
+display: block;
+}
+
+/* Content section styling */
+.content {
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content h3 {
+  font-size: 1.25rem;
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Button styling */
+.button {
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background: #4a90e2;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.button a:hover {
+  background: #357abd;
+}
+
+/* Social media icons styling */
+.social {
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.social a {
+  color: #4a90e2;
+  font-size: 1.25rem;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social a:hover {
+  color: #357abd;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .title h1 {
+      font-size: 1.75rem;
+  }
+
+  .content {
+      padding: 15px;
+  }
+
+  .content h3 {
+      font-size: 1.1rem;
+  }
+
+  .content p {
+      font-size: 0.9rem;
+  }
+
+  .button a {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+  }
+
+  .social a {
+      font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title h1 {
+      font-size: 1.5rem;
+  }
+
+  .button {
+      margin: 15px 5px;
+  }
+
+  .button a {
+      font-size: 0.85rem;
+      padding: 6px 12px;
+  }
+
+  .social a {
+      font-size: 1rem;
+  }
+}
